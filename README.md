@@ -8,7 +8,7 @@ Plugins supported:
 
 To install with [Lazy](https://github.com/folke/lazy.nvim):
 
-```
+```lua
 {
     "shurj0/witchesbrew.nvim",
     dependencies = { 'rktjmp/lush.nvim' },
