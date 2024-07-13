@@ -7,9 +7,9 @@ local palette = {
     surface = hsl("#15130f").abs_lighten(10),
     overlay = hsl("#15130f").abs_lighten(20),
     -- foreground colors
-    text = hsl("#e2e0dc"),
-    subtle = hsl("#e2e0dc").abs_darken(10),
-    muted = hsl("#e2e0dc").abs_darken(50),
+    text = hsl("#d0cdc8"),
+    subtle = hsl("#d0cdc8").abs_darken(10),
+    muted = hsl("#d0cdc8").abs_darken(50),
     -- term colors
     red = hsl("#da9188"),
     yellow = hsl("#a69481"),
