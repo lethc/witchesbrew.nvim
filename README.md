@@ -12,7 +12,7 @@ To install with [Lazy](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    "shurj0/witchesbrew.nvim",
+    "shoenot/witchesbrew.nvim",
     dependencies = { 'rktjmp/lush.nvim' },
     lazy = false,
     priority = 1000,
