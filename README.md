@@ -3,6 +3,8 @@
 
 Requires [Lush](https://github.com/rktjmp/lush.nvim/tree/main).
 
+Also includes a kitty theme in extras/kitty. 
+
 Plugins supported:
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim)
 
