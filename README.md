@@ -1,6 +1,8 @@
 # A Witchy, Wine-y color scheme for Neovim.
 ***Best served in a cauldron with added spices.***
 
+![witchesbrew screenshot with a couple splits](./assets/screenshot-0.png)
+
 Built with [Lush](https://github.com/rktjmp/lush.nvim/tree/main).
 
 Also includes a kitty theme in extras/kitty.
