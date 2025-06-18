@@ -43,9 +43,9 @@ local theme = lush(function(injected_functions)
     MoreMsg        { fg = palette.purple }, -- |more-prompt|
     NonText        { fg = palette.muted }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal         { bg = palette.base, fg = palette.text }, -- Normal text
-    NormalFloat    { bg = palette.surface, fg = palette.text }, -- Normal text in floating windows.
-    FloatBorder    { bg = palette.pink, fg = palette.pink }, -- Border of floating windows.
-    FloatTitle     { fg = palette.muted }, -- Title of floating windows.
+    NormalFloat    { fg = palette.text }, -- Normal text in floating windows.
+    FloatBorder    { fg = palette.pink }, -- Border of floating windows.
+    FloatTitle     { fg = palette.brightred }, -- Title of floating windows.
     NormalNC       { bg = palette.base, fg = palette.text }, -- normal text in non-current windows
     Pmenu          { bg = palette.surface, fg = palette.subtle }, -- Popup menu: Normal item.
     PmenuSel       { fg = palette.brightpink, bg = palette.overlay}, -- Popup menu: Selected item.
