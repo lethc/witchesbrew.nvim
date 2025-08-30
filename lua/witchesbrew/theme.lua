@@ -35,7 +35,7 @@ local theme = lush(function(injected_functions)
     LineNrBelow    { LineNr }, -- Line number for when the 'relativenumber' option is set, below the cursor line
     CursorLineNr   { bg = palette.hi_low }, -- Like LineNr when 'cursorline' or 'relativenumber' is set for the cursor line.
     CursorLineFold { FoldColumn }, -- Like FoldColumn when 'cursorline' is set for the cursor line
-    CursorLineSign { SignColumn }, -- Like SignColumn when 'cursorline' is set for the cursor line
+    CursorLineSign { bg = palette.hi_low }, -- Like SignColumn when 'cursorline' is set for the cursor line
     MatchParen     { fg = palette.text, bg = palette.hi_med }, -- Character under the cursor or just before it, if it is a paired bracket, and its match. |pi_paren.txt|
     ModeMsg        { fg = palette.subtle }, -- 'showmode' message (e.g., "-- INSERT -- ")
     MsgArea        { }, -- Area for messages and cmdline
