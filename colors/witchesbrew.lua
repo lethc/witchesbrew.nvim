@@ -179,6 +179,18 @@ netrwClassify = {fg = "#856397"},
 ["@type"] = {fg = "#DA9086"},
     -- PATCH_CLOSE
     -- content here will not be touched
+	["markdownH1"] = { fg = "#D0CDC8", bg = "#341828", bold = true },
+	["markdownH2"] = { fg = "#EA8476", bg = "#341828", bold = true },
+	["markdownH3"] = { fg = "#BC6C97", bg = "#341828", bold = true },
+	["markdownH4"] = { fg = "#DA9086", bg = "#341828", bold = true },
+	["markdownH5"] = { fg = "#E2ACBB", bg = "#341828", bold = true },
+	["markdownH6"] = { fg = "#856397", bg = "#341828", bold = true },
+	["@markup.heading.1.markdown"] = { link = "markdownH1" },
+	["@markup.heading.2.markdown"] = { link = "markdownH2" },
+	["@markup.heading.3.markdown"] = { link = "markdownH3" },
+	["@markup.heading.4.markdown"] = { link = "markdownH4" },
+	["@markup.heading.5.markdown"] = { link = "markdownH5" },
+	["@markup.heading.6.markdown"] = { link = "markdownH6" },
 }
 
 -- colorschemes generally want to do this
