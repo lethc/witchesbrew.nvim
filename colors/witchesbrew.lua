@@ -191,6 +191,35 @@ local colors = {
 	["@markup.heading.4.markdown"] = { link = "markdownH4" },
 	["@markup.heading.5.markdown"] = { link = "markdownH5" },
 	["@markup.heading.6.markdown"] = { link = "markdownH6" },
+	["CmpItemAbbr"]              = { fg = "#D0CDC8" },
+	["CmpItemAbbrMatch"]         = { fg = "#AD677C", bold = true },   -- 1st Match
+	["CmpItemAbbrMatchFuzzy"]    = { fg = "#E2ACBB", bold = true },   -- 2nd Match
+	["CmpItemMenu"]              = { fg = "#A68295", italic = true }, -- Right Text next to the item
+	["CmpItemKindInterface"]     = { fg = "#DA9086", bg = "#341828" },
+	["CmpItemKindColor"]         = { fg = "#E2ACBB", bg = "#341828" },
+	["CmpItemKindTypeParameter"] = { fg = "#856397", bg = "#341828" },
+	["CmpItemKindText"]          = { fg = "#D0CDC8", bg = "#341828" },
+	["CmpItemKindEnum"]          = { fg = "#D0CDC8", bg = "#341828" },
+	["CmpItemKindKeyword"]       = { fg = "#D0CDC8", bg = "#341828" },
+	["CmpItemKindConstant"]      = { fg = "#EA8476", bg = "#341828" },
+	["CmpItemKindConstructor"]   = { fg = "#EA8476", bg = "#341828" },
+	["CmpItemKindReference"]     = { fg = "#EA8476", bg = "#341828" },
+	["CmpItemKindFunction"]      = { fg = "#BC6C97", bg = "#341828" },
+	["CmpItemKindStruct"]        = { fg = "#BC6C97", bg = "#341828" },
+	["CmpItemKindClass"]         = { fg = "#BC6C97", bg = "#341828" },
+	["CmpItemKindModule"]        = { fg = "#BC6C97", bg = "#341828" },
+	["CmpItemKindOperator"]      = { fg = "#BC6C97", bg = "#341828" },
+	["CmpItemKindField"]         = { fg = "#DA9086", bg = "#341828" },
+	["CmpItemKindProperty"]      = { fg = "#DA9086", bg = "#341828" },
+	["CmpItemKindEvent"]         = { fg = "#DA9086", bg = "#341828" },
+	["CmpItemKindUnit"]          = { fg = "#E2ACBB", bg = "#341828" },
+	["CmpItemKindSnippet"]       = { fg = "#E2ACBB", bg = "#341828" },
+	["CmpItemKindFolder"]        = { fg = "#E2ACBB", bg = "#341828" },
+	["CmpItemKindVariable"]      = { fg = "#856397", bg = "#341828" },
+	["CmpItemKindFile"]          = { fg = "#856397", bg = "#341828" },
+	["CmpItemKindMethod"]        = { fg = "#5478B6", bg = "#341828" },
+	["CmpItemKindValue"]         = { fg = "#5478B6", bg = "#341828" },
+	["CmpItemKindEnumMember"]    = { fg = "#5478B6", bg = "#341828" },
 }
 
 -- colorschemes generally want to do this
