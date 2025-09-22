@@ -50,6 +50,7 @@ local colors = {
 	DiagnosticSignWarn = { link = "DiagnosticWarn" },
 	DiagnosticUnderlineWarn = { link = "DiagnosticWarn" },
 	DiagnosticVirtualTextWarn = { link = "DiagnosticWarn" },
+	DiagnosticUnnecessary = { fg = "#706962" },
 	DiffAdd = { bg = "#566845" },
 	DiffChange = { bg = "#572942" },
 	DiffDelete = { bg = "#784545" },
