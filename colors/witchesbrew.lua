@@ -192,6 +192,8 @@ local colors = {
 	["@markup.heading.4.markdown"] = { link = "markdownH4" },
 	["@markup.heading.5.markdown"] = { link = "markdownH5" },
 	["@markup.heading.6.markdown"] = { link = "markdownH6" },
+
+    -- Cmp
 	["CmpItemAbbr"]              = { fg = "#D0CDC8" },
 	["CmpItemAbbrMatch"]         = { fg = "#AD677C", bold = true },   -- 1st Match
 	["CmpItemAbbrMatchFuzzy"]    = { fg = "#E2ACBB", bold = true },   -- 2nd Match
@@ -221,6 +223,9 @@ local colors = {
 	["CmpItemKindMethod"]        = { fg = "#5478B6", bg = "#341828" },
 	["CmpItemKindValue"]         = { fg = "#5478B6", bg = "#341828" },
 	["CmpItemKindEnumMember"]    = { fg = "#5478B6", bg = "#341828" },
+
+    -- Telescope
+	["TelescopeMatching"]    = { fg = "#AD677C", bold = true },
 }
 
 -- colorschemes generally want to do this
